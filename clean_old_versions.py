@@ -74,7 +74,7 @@ def main():
             else:
                 tags_to_delete = matching_tags
             for tag in tags_to_delete:
-                command2run = "/usr/local/bin/delete_docker_registry_image --image {0}:{1}". \
+                command2run = "./delete_docker_registry_image.py --image {0}:{1}". \
                     format(repository, tag)
                 print("Running: {0}".format(command2run))
                 out = subprocess.Popen(command2run, shell=True, stdout=subprocess.PIPE,
