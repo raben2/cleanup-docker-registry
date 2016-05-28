@@ -1,8 +1,8 @@
-# delete-docker-registry-image
+# cleanup-docker-registry
 
 ## Install
 
-    curl https://raw.githubusercontent.com/burnettk/delete-docker-registry-image/master/delete_docker_registry_image.py | sudo tee /usr/local/bin/delete_docker_registry_image >/dev/null
+    curl https://raw.githubusercontent.com/raben2/cleanup-docker-registry/master/delete_docker_registry_image.py | sudo tee /usr/local/bin/delete_docker_registry_image >/dev/null
     sudo chmod a+x /usr/local/bin/delete_docker_registry_image
 
 ## Run
