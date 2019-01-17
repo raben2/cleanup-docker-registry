@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Usage:
 Shut down your registry service to avoid race conditions and possible data loss

@@ -1,0 +1,5 @@
+docker-py
+argparse
+urllib3
+chardet
+requests
